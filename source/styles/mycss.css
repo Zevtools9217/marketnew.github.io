@@ -1,0 +1,97 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    font-family: Raleway, serif;
+    background: linear-gradient(90deg, rgba(5, 38, 100, 0.49) 0%, #0A3A6B 100%);
+}
+p {
+    color: aquamarine;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active {
+    color: rgb(203, 198, 198);
+}
+.navbar-brand img {
+width: 70px;
+}
+
+.navbar-toggler {
+    background-color:rgb(203, 198, 198);
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, rgba(6, 45, 118, 0.49) 0%, #0A3A6B 100%);
+    
+     
+}
+
+.card {
+    background: linear-gradient(270deg, rgba(6, 45, 118, 0.49) 0%, #0A3A6B 100%);
+color: aquamarine;
+}
+.card a {
+    text-decoration: none;
+color: aquamarine;
+
+}
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin:  auto auto;
+
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+footer {
+    background: linear-gradient(270deg, rgba(6, 45, 118, 0.49) 0%, #0A3A6B 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
